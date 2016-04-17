@@ -15,7 +15,7 @@ Window::Window (int windowSize){
 
     for(int yPos = 0; yPos < windowSize; ++yPos){
         for(int xPos = 0; xPos < 2*windowSize; ++xPos){
-            window[yPos][xPos] = 'a';
+            window[yPos][xPos] = '_';
         }
     }
     currentChar.character = window[0][0];
