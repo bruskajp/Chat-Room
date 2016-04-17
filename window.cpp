@@ -80,3 +80,9 @@ void Window::edit(const string & text){
         ++ textCounter;
     }
 }
+
+void Window::sendMessage(){
+    cout << "Message: ";
+    cin >> messenger.message;
+    messenger.send();
+}

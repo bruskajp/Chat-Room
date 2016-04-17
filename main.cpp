@@ -4,7 +4,6 @@
 #include <string>
 
 #include "window.h"
-#include "messenger.h"
 
 using namespace std;
 
@@ -37,9 +36,7 @@ int main(){
                 window.downChar();
                 break;
             case 'm':
-                cout << "Message: ";
-                cin >> messenger.message;
-                messenger.send();
+                window.sendMessage();
                 break;
             case 'e':
                 cout << "New Text: ";

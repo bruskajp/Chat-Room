@@ -2,6 +2,7 @@
 #define __window__
 
 #include <string>
+#include "messenger.h"
 
 using namespace std;
 
@@ -26,6 +27,10 @@ class Window{
     void upChar();
     void downChar();
     void edit(const string & text);
+    void sendMessage();
+
+
+    Messenger messenger;
 };
 
 #endif // __window__
