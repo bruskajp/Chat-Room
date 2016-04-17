@@ -23,3 +23,29 @@
 	"messenger.h"
 	<iostream>
 
+1460865741 source:c:\users\trevor\documents\github\chat-room\main.cpp
+	<iostream>
+	<stdlib.h>
+	<unistd.h>
+	<string>
+	"window.h"
+	"messenger.h"
+
+1460864550 c:\users\trevor\documents\github\chat-room\window.h
+	<string>
+
+1460864549 c:\users\trevor\documents\github\chat-room\messenger.h
+	<string>
+
+1460864549 source:c:\users\trevor\documents\github\chat-room\messenger.cpp
+	"messenger.h"
+	<iostream>
+
+1460865866 source:c:\users\trevor\documents\github\chat-room\window.cpp
+	<iostream>
+	<stdlib.h>
+	<unistd.h>
+	"window.h"
+
+1460864549 source:c:\users\trevor\documents\github\chat-room\encryptor.cpp
+
