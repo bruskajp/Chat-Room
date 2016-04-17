@@ -23,3 +23,8 @@
 *.exe
 *.out
 *.app
+
+# Code::Blocks
+*.layout
+*.cbp
+*.depend
